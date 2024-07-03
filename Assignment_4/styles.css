@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.hero-unit {
+    position: relative;
+}
+
+.hero-unit .carousel-item {
+    height: 600px;
+}
+
+
+.hero-unit .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.hero-unit .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero-unit h1 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero-unit p {
+    font-weight: 400;
+    color: #fff;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links a, .site-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover, .site-links a:hover {
+    text-decoration: underline;
+}
