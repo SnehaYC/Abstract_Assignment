@@ -1,0 +1,22 @@
+body {
+    padding: 20px;
+   
+}
+
+
+.card{
+    width:400px;
+    margin-bottom: 2rem;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+    color:goldenrod;
+    font-weight:bolder;
+}
+
+.card-body{
+    background-color: cornsilk;
+}
