@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List of Student</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Score</th>
+    </tr>
+
+@{
+
+    foreach(var student in ViewBag.list)
+    {
+       <tr>
+                <td>@student.Id </td>
+                <td>@student.Name</td>
+                <td>@student.Address</td>
+                <td>@student.Score</td>
+       </tr>
+    }
+}
+</table>
